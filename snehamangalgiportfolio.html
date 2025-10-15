@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneha Mangalgi - AI/ML Student</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font and icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333;
+            background-color: #f0f4f8;
+        }
+        .container {
+            max-width: 1200px;
+        }
+        .tag {
+            display: inline-block;
+            background-color: #e2e8f0;
+            color: #4a5568;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold text-gray-800">Sneha Mangalgi</a>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#about" class="hover:text-blue-600 transition-colors">About</a>
+                <a href="#skills" class="hover:text-blue-600 transition-colors">Skills</a>
+                <a href="#experience" class="hover:text-blue-600 transition-colors">Experience</a>
+                <a href="#projects" class="hover:text-blue-600 transition-colors">Projects</a>
+                <a href="#contact" class="hover:text-blue-600 font-medium">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Home Section -->
+        <section id="home" class="py-24 text-center">
+            <div class="container mx-auto px-4">
+                <h1 class="text-6xl font-extrabold text-gray-800 leading-tight">Sneha <span class="text-blue-600">Mangalgi</span></h1>
+                <p class="mt-4 text-2xl text-gray-600 font-medium">AI/ML Engineering Student </p>
+                <p class="mt-6 text-lg max-w-2xl mx-auto text-gray-500">
+                    Passionate about building intelligent systems and exploring the frontiers of artificial intelligence. Currently pursuing BTech in AI/ML with hands-on experience in NLP, Deep Learning, and Python development.
+                </p>
+                <div class="mt-8 space-x-4">
+                    <a href="#projects" class="bg-gray-200 text-gray py-3 px-6 rounded-lg font-semibold hover:bg-blue-500 transition-colors shadow-lg">
+                        View My Work
+                    </a>
+                    <a href="#contact" class="bg-gray-200 text-gray-800 py-3 px-6 rounded-lg font-semibold hover:bg-blue-500 transition-colors">
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-extrabold text-center mb-12 text-gray-800">About Me</h2>
+                <div class="flex flex-col md:flex-row items-center justify-center md:space-x-12">
+                    <div class="flex-shrink-0 w-64 h-64 rounded-full bg-blue-100 flex items-center justify-center p-8 mb-8 md:mb-0">
+                        <!-- Brain icon representing AI/ML -->
+                        <i class="fas fa-brain text-blue-600 text-[12rem]"></i>
+                    </div>
+                    <div class="text-center md:text-left max-w-xl">
+                        <p class="text-lg text-gray-600">
+                            I am a passionate BTech student specializing in Artificial Intelligence and Machine Learning at Aurora Technological Research Institute. My journey in AI/ML is driven by curiosity and a desire to create intelligent solutions that can make a real difference. I thrive on learning new concepts, working on challenging projects, and seeking opportunities that allow me to grow both technically and professionally. Currently looking for internship opportunities to gain practical experience and contribute to innovative AI projects.
+                        </p>
+                        <ul class="mt-6 space-y-3 text-lg text-gray-700">
+                            <li class="flex items-center">
+                                <i class="fas fa-graduation-cap text-blue-600 w-6 mr-2"></i>
+                                <span>Education: BTech in Computer Science (AI/ML) - Aurora Technological Research Institute</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="far fa-calendar-alt text-blue-600 w-6 mr-2"></i>
+                                <span>Duration: 2022-2026 (Currently in Progress)</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-map-marker-alt text-blue-600 w-6 mr-2"></i>
+                                <span>Location: Hyderabad, Telangana</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills & Expertise Section -->
+        <section id="skills" class="py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-extrabold text-center mb-12 text-gray-800">Skills & Expertise</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Programming Languages -->
+                    <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-blue-600">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-code text-blue-600 text-3xl mr-4"></i>
+                            <h3 class="text-2xl font-bold">Programming Languages</h3>
+                        </div>
+                        <div class="flex flex-wrap">
+                            <span class="tag">Python</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                    <!-- AI/ML & Data Science -->
+                    <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-blue-600">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-brain text-blue-600 text-3xl mr-4"></i>
+                            <h3 class="text-2xl font-bold">AI/ML & Data Science</h3>
+                        </div>
+                        <div class="flex flex-wrap">
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Deep Learning</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">Neural Networks</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">NLTK</span>
+                            <span class="tag">GPT-2</span>
+                            <span class="tag">VGG19</span>
+                        </div>
+                    </div>
+                    <!-- Tools & Technologies -->
+                    <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-blue-600">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-tools text-blue-600 text-3xl mr-4"></i>
+                            <h3 class="text-2xl font-bold">Tools & Technologies</h3>
+                        </div>
+                        <div class="flex flex-wrap">
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Netbeans</span>
+                            <span class="tag">JDK</span>
+                            <span class="tag">SpeechRecognition</span>
+                            <span class="tag">pyttsx3</span>
+                            <span class="tag">Whisper</span>
+                            <span class="tag">pandas</span>
+                            <span class="tag">Git</span>
+                        </div>
+                    </div>
+                    <!-- Languages -->
+                    <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-blue-600 md:col-span-2 lg:col-span-1">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-globe-americas text-blue-600 text-3xl mr-4"></i>
+                            <h3 class="text-2xl font-bold">Languages</h3>
+                        </div>
+                        <div class="flex flex-wrap">
+                            <span class="tag">English</span>
+                            <span class="tag">Kannada</span>
+                            <span class="tag">Hindi</span>
+                            <span class="tag">Telugu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-extrabold text-center mb-12 text-gray-800">Experience</h2>
+                <div class="space-y-12">
+                    <!-- Experience 1 -->
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-md border-l-4 border-blue-600">
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-2xl font-bold text-gray-800">AI Intern <span class="text-blue-600">CodTech IT Solutions</span></h3>
+                            <a href="https://github.com/mangalgi-sneha-2004/MY-CERTIFICATES/blob/main/CT04WT53%20(2).pdf" target="_blank" rel="noopener noreferrer" class="text-gray-400 text-lg hover:text-blue-600 transition-colors"><i class="fas fa-link"></i></a>
+                        </div>
+                        <p class="text-gray-500 mt-2">March - April 2025</p>
+                        <ul class="list-disc list-inside mt-4 text-gray-600 space-y-2">
+                            <li>Built Advanced NLP Tools: Developed a text summarization tool using NLTK with 88% accuracy.</li>
+                            <li>Implemented Neural Style Transfer (NST) system with VGG19, optimizing Gram matrix losses for artistic style fusion.</li>
+                            <li>Engineered a text-generation model using fine-tuned GPT-2 for enhanced content creation.</li>
+                            <li>Developed speech recognition pipeline using Whisper/CTC loss for real-time transcription.</li>
+                            <li>Reduced manual effort by 40% in client workflows through automation solutions.</li>
+                        </ul>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="tag">Python</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">Deep Learning</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">NLTK</span>
+                            <span class="tag">GPT-2</span>
+                            <span class="tag">Whisper</span>
+                        </div>
+                    </div>
+                    <!-- Experience 2 -->
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-md border-l-4 border-blue-600">
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-2xl font-bold text-gray-800">GenAI Job Simulation Participant <span class="text-blue-600">BCG on Forage</span></h3>
+                            <a href="https://github.com/mangalgi-sneha-2004/MY-CERTIFICATES/blob/main/bcgxcertificate.pdf" target="_blank" rel="noopener noreferrer" class="text-gray-400 text-lg hover:text-blue-600 transition-colors"><i class="fas fa-link"></i></a>
+                        </div>
+                        <p class="text-gray-500 mt-2">March 2025</p>
+                        <ul class="list-disc list-inside mt-4 text-gray-600 space-y-2">
+                            <li>Completed comprehensive job simulation involving AI-powered financial chatbot development.</li>
+                            <li>Gained hands-on experience in Python programming with extensive use of pandas for data manipulation.</li>
+                            <li>Integrated and interpreted complex financial data from 10-K and 10-Q reports.</li>
+                            <li>Employed rule-based logic to create user-friendly financial insights and analysis chatbot.</li>
+                            <li>Demonstrated ability to work with real-world financial datasets and create practical AI solutions.</li>
+                        </ul>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="tag">Python</span>
+                            <span class="tag">pandas</span>
+                            <span class="tag">Financial Data Analysis</span>
+                            <span class="tag">Chatbot Development</span>
+                            <span class="tag">Rule-based Systems</span>
+                        </div>
+                    </div>
+                   
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section id="projects" class="py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-extrabold text-center mb-12 text-gray-800">Featured Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project 1 -->
+                    <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-blue-600">
+                        <div class="flex justify-between items-center mb-4">
+                            <i class="fas fa-paint-brush text-blue-600 text-3xl"></i>
+                            <a href="https://github.com/mangalgi-sneha-2004/NEURAL-STYLE-TRANSFER" class="text-gray-400 hover:text-blue-600 transition-colors"><i class="fas fa-external-link-alt text-lg"></i></a>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Neural Style Transfer</h3>
+                        <p class="text-gray-600 mb-4">Advanced deep learning project implementing artistic style transfer using VGG19 architecture.</p>
+                        <h4 class="font-semibold text-gray-700">Key Features:</h4>
+                        <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
+                            <li>Implemented artistic style transfer using Deep Learning</li>
+                            <li>Utilized pre-trained VGG19 model for feature extraction</li>
+                            <li>Optimized Gram matrix losses for realistic style transfer</li>
+                        </ul>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="tag">Deep Learning</span>
+                            <span class="tag">VGG19</span>
+                            <span class="tag">Style Transfer</span>
+                            <span class="tag">TensorFlow</span>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-blue-600">
+                        <div class="flex justify-between items-center mb-4">
+                            <i class="fas fa-file-alt text-blue-600 text-3xl"></i>
+                            <a href="https://github.com/mangalgi-sneha-2004/TEXT-SUMMARIZATION-TOOL" class="text-gray-400 hover:text-blue-600 transition-colors"><i class="fas fa-external-link-alt text-lg"></i></a>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Text Summarization Tool</h3>
+                        <p class="text-gray-600 mb-4">Intelligent extractive text summarizer with high accuracy and user-friendly interface.</p>
+                        <h4 class="font-semibold text-gray-700">Key Features:</h4>
+                        <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
+                            <li>High-accuracy extractive summarization</li>
+                            <li>User-friendly web interface for text input</li>
+                            <li>Built using NLTK and Python</li>
+                            <li>Optimized for efficient summarization of long documents</li>
+                        </ul>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="tag">NLP</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">NLTK</span>
+                            <span class="tag">Text Processing</span>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-blue-600">
+                        <div class="flex justify-between items-center mb-4">
+                            <i class="fas fa-microphone text-blue-600 text-3xl"></i>
+                            <a href="https://github.com/mangalgi-sneha-2004/VOICE-BASED-AI-ASSISTANT" class="text-gray-400 hover:text-blue-600 transition-colors"><i class="fas fa-external-link-alt text-lg"></i></a>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Voice-Based AI Assistant</h3>
+                        <p class="text-gray-600 mb-4">Intelligent voice-controlled assistant with speech recognition and text-to-speech capabilities.</p>
+                        <h4 class="font-semibold text-gray-700">Key Features:</h4>
+                        <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
+                            <li>Voice command recognition using SpeechRecognition library</li>
+                            <li>Text-to-speech functionality with pyttsx3</li>
+                            <li>Multi-language support for better accessibility</li>
+                            <li>Real-time response processing and interaction</li>
+                        </ul>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="tag">Python</span>
+                            <span class="tag">SpeechRecognition</span>
+                            <span class="tag">pyttsx3</span>
+                            <span class="tag">Voice Processing</span>
+                            <span class="tag">AI</span>
+                        </div>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-blue-600">
+                        <div class="flex justify-between items-center mb-4">
+                            <i class="fas fa-globe text-blue-600 text-3xl"></i>
+                            <a href="#" class="text-gray-400 hover:text-blue-600 transition-colors"><i class="fas fa-external-link-alt text-lg"></i></a>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Online Advertisement System</h3>
+                        <p class="text-gray-600 mb-4">Comprehensive platform for advertisers to create and manage customized advertisements.</p>
+                        <h4 class="font-semibold text-gray-700">Key Features:</h4>
+                        <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
+                            <li>Complete web-based platform for advertisement management</li>
+                            <li>Customizable ad creation tools and functionalities</li>
+                            <li>Database integration for storing advertisement data</li>
+                            <li>User-friendly interface for advertisers</li>
+                        </ul>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Netbeans</span>
+                            <span class="tag">JDK</span>
+                            <span class="tag">Web Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-extrabold text-center mb-12 text-gray-800">Get In Touch</h2>
+                <p class="text-center text-lg max-w-2xl mx-auto text-gray-600">I'm always open to discussing new opportunities and interesting projects. Let's connect and explore how we can work together!</p>
+                <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <!-- Email Card -->
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-md">
+                        <a href=  "mailto:msneha3110@gmail.com"  class="block">
+                            <i class="fas fa-envelope text-blue-600 text-3xl mb-4"></i>
+                            <h4 class="font-semibold text-xl mb-1">Email</h4>
+                            <p class="text-gray-600">msneha3110@gmail.com</p>
+                        </a>
+                    </div>
+                    <!-- Phone Card -->
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-md">
+                        <i class="fas fa-phone text-blue-600 text-3xl mb-4"></i>
+                        <h4 class="font-semibold text-xl mb-1">Phone</h4>
+                        <p class="text-gray-600">+91 9381300665</p>
+                    </div>
+                    <!-- Location Card -->
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-md">
+                        <i class="fas fa-map-marker-alt text-blue-600 text-3xl mb-4"></i>
+                        <h4 class="font-semibold text-xl mb-1">Location</h4>
+                        <p class="text-gray-600">Hyderabad, Telangana</p>
+                    </div>
+                    <!-- LinkedIn Card -->
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-md">
+                        <a href="https://www.linkedin.com/in/mangalgi-sneha-233a28343/" class="block">
+                            <i class="fab fa-linkedin text-blue-600 text-3xl mb-4"></i>
+                            <h4 class="font-semibold text-xl mb-1">LinkedIn</h4>
+                            <p class="text-gray-600">mangalgi-sneha</p>
+                        </a>
+                    </div>
+                     <!-- GitHub Card -->
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-md">
+                        <a href="https://github.com/mangalgi-sneha-2004" class="block">
+                            <i class="fab fa-github text-blue-600 text-3xl mb-4"></i>
+                            <h4 class="font-semibold text-xl mb-1">GitHub</h4>
+                            <p class="text-gray-600">mangalgi-sneha-2004</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="mt-8 text-center">
+                    <a href="mailto:msneha3110@gmail.com" class="bg-blue-600 text-white py-3 px-8 rounded-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg">
+                        Send Me an Email
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-8 text-center">
+        <div class="container mx-auto px-4">
+            <h4 class="text-2xl font-bold mb-2">Sneha Mangalgi</h4>
+            <p class="text-gray-400 mb-4">AI/ML Engineering Student & Aspiring Data Scientist</p>
+            <div class="flex justify-center space-x-6 text-xl mb-4">
+                <a href="mailto:msneha3110@gmail.com" class="hover:text-white transition-colors"><i class="fas fa-envelope"></i></a>
+                <a href="" class="hover:text-white transition-colors"><i class="fas fa-phone"></i></a>
+                <a href="https://github.com/mangalgi-sneha-2004" class="hover:text-white transition-colors"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mangalgi-sneha-233a28343/" class="hover:text-white transition-colors"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2025 Sneha Mangalgi. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
